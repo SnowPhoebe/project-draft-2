@@ -50,11 +50,34 @@ img {
   border-radius: 5px;
 }
 
-img:hover {
-  filter: grayscale(50%);
+img:nth-child(even):hover {
+  filter: grayscale(60%);
   border-style: groove;
 }
 
+/*
+img:hover:nth-child(3n + 3) {
+  filter: grayscale(60%);
+  border-style: groove;
+}
+img:nth-child(even):hover {
+  filter: grayscale(50%);
+  border-style: groove;
+}
+*/
+
+/*
+img:nth-child(odd) {
+  filter: grayscale(50%);
+  border-style: groove;
+}
+*/
+/*
+img:nth-child(2n) {
+  filter: grayscale(50%);
+  border-style: groove;
+}
+*/
 #jump_to {
   margin: 15px;
   font-size: 18px;
