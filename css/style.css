@@ -1,0 +1,98 @@
+h1 {
+  font-size: 30px;
+  margin: 15px;
+}
+
+body {
+  margin: 15px;
+  padding: 10px;
+}
+
+main {
+  font-size: 18px;
+  line-height: 150%;
+}
+p {
+  margin: 5px;
+  padding: 5px;
+}
+
+nav {
+  margin: 15px;
+  font-size: 18px;
+}
+
+nav li {
+  padding: 5px;
+}
+nav li a:hover {
+  color: #ff3300;
+}
+/*
+nav li a {
+  color: white;
+}
+nav li a:hover {
+  background-color: #66b5ff;
+}
+*/
+
+div a {
+  padding: 5px;
+  line-height: 160%;
+}
+
+img {
+  width: 200px;
+  border: 5px solid #d4d4f7;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+img:hover {
+  filter: grayscale(50%);
+  border-style: groove;
+}
+
+#jump_to {
+  margin: 15px;
+  font-size: 18px;
+}
+
+h2 {
+  margin: 15px;
+  font-size: 24px;
+}
+
+footer {
+  font-size: 18px;
+  padding: 32px 0;
+}
+
+.active {
+  width: 83px;
+  color: white;
+  background-color: #cce6ff;
+  border: 2px solid #b3daff;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.skip {
+  background-color: #99ceff;
+  border-radius: 3px;
+  margin: 10px;
+  border: 2px solid #80c1ff;
+}
+
+.skip:hover {
+  color: white;
+  background-color: #66b5ff;
+}
+
+/*
+#horizontal {
+  width: 550px;
+}
+*/
